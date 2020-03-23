@@ -8,9 +8,6 @@
 <input type=password name=password2 value="{$frm.password2|escape:"quotes"}" class=inpts size=30 placeholder="password"> <br>
 <input type=text name=email value="{$frm.email|escape:"quotes"}" class=inpts size=30 placeholder="email"> <br>
 <input type=text name=email1 value="{$frm.email1|escape:"quotes"}" class=inpts size=30 placeholder="email2"> <br>
-<input type=checkbox name=agree value=1>
-<input type=submit value="Register" class=sbmt>
-</form>
 
 {if $referer}
 <tr>
@@ -18,3 +15,9 @@
  <td>{*<a href="mailto:{$referer.email}">*}{$referer.name}{*</a>*} ({$referer.username})</td>
 </tr>
 {/if}
+
+<input type=checkbox name=agree value=1>
+<input type=submit value="Register" class=sbmt>
+</form>
+
+
