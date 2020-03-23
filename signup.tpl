@@ -11,3 +11,10 @@
 <input type=checkbox name=agree value=1>
 <input type=submit value="Register" class=sbmt>
 </form>
+
+{if $referer}
+<tr>
+ <td>Your Upline:</td>
+ <td>{*<a href="mailto:{$referer.email}">*}{$referer.name}{*</a>*} ({$referer.username})</td>
+</tr>
+{/if}
