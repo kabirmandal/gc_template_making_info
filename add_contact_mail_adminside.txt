@@ -6,3 +6,6 @@ table.forTexts::before {
     font-size: small;
     padding-left: 9px;
 }
+
+
+location: images/adminstyle.css
