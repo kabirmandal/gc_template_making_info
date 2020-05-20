@@ -1,0 +1,8 @@
+table.forTexts::before {
+    content: "Contact Developer: kabir.mandal@gmail.com";
+    display: block;
+    background: white;
+    color: red;
+    font-size: small;
+    padding-left: 9px;
+}
