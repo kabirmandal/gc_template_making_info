@@ -7,3 +7,5 @@ Principal Return: {if $deposit.principal_return}Yes{if $deposit.principal_return
 Deposit Amount: {$currency_sign}{$deposit.user_amount}  
 Converted Amount: {$deposit.converted_fiat} Amount:
 Deposit Amount: {$deposit.amount}
+
+Payment Form: {$payment_form}
