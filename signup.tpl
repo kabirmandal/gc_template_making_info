@@ -21,3 +21,8 @@
 </form>
 
 
+Note:
+=========
+Delete these 2 line from sign up form area
+<input type="hidden" name="form_id" value="15937474957084">
+<input type="hidden" name="form_token" value="95cef1535a245ae2eea37bb84a879668">
