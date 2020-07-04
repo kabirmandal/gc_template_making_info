@@ -8,4 +8,5 @@ Total Withdrawal:  ${$ab_formated.withdrawal}
 Last Deposit: ${$last_deposit|default:"n/a"}
 Total Deposit: ${$ab_formated.deposit}
 Active Deposit: {$ab_formated.active_deposit}
+User IP: {$userinfo.ip}
 
